@@ -25,6 +25,6 @@ const driverObjects = [
   { name: "Sally", hometown: "Cleveland" },
 ];
 
-console.log(findMatching(drivers, "Bobby")); // ["Bobby", "bobby"]
-console.log(fuzzyMatch(drivers, "Sa")); // ["Sammy", "Sally", "Sarah"]
-console.log(matchName(driverObjects, "Bobby")); // [{ name: "Bobby", hometown: "Pittsburgh" }]
+console.log(findMatching(drivers, "Bobby"));
+console.log(fuzzyMatch(drivers, "Sa")); 
+console.log(matchName(driverObjects, "Bobby")); 
